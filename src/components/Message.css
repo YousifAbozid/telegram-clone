@@ -27,10 +27,13 @@
 .message__sender{
     margin-left: auto;
 }
+
+.message__sender .message__photo{
+    order: 1;
+}
 .message__control{
     background-color: rgb(2, 150, 199);
 }
 .message__photo{
-    order: 1;
     margin: 15px;
 }

@@ -18,7 +18,6 @@ import { Message } from "./Message";
 
 export const Thread = () => {
   const [input, setInput] = useState("");
-  // const [notEmpty, setNotEmpty] = useState(false);
   const [messages, setMessages] = useState([]);
   const threadName = useSelector(selectThreadName);
   const threadId = useSelector(selectThreadId);
@@ -57,7 +56,7 @@ export const Thread = () => {
   };
 
   let lastSeen = messages[0]
-    ? new Date(messages[0].data.timestamp.toDate()).toLocaleString()
+    ? new Date(messages[0].data.timestamp?.toDate()).toLocaleString()
     : "Last Seen";
 
   return (
