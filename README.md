@@ -1,6 +1,6 @@
 ## Telegram Clone
 
-Web app [https://tiktok-clone-baxodirov09.web.app/]
+Web app [https://telegram-clone-baxodirov09.web.app/]
 
 ## The idea of this project borrowed from Clever Programmer
 
