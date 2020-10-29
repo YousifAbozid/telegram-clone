@@ -1,0 +1,81 @@
+.thread {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: .75;
+}
+
+.thread__header {
+    display: flex;
+    border-bottom: 1px solid rgba(190, 190, 190, .1);
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.thread__header_content {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+.thread__header_content_info{
+    margin-left: 15px;
+}
+
+.thread__header_content_info>h5 {
+    font: 2500px;
+    color: gray;
+}
+
+.threads__header_details {
+    color: white;
+
+}
+
+.threads__header_details:hover {
+    color: rgba(2, 150, 199);
+}
+
+.thread__messages {
+    flex: 1;
+    overflow: scroll;
+}
+
+.thread__messages::-webkit-scrollbar {
+    display: none;
+}
+
+.thread__input {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent;
+    border-top: 1px solid rgba(190, 190, 190, .1);
+}
+
+.thread__input form {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.thread__input form input {
+    width: 98%;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    padding: 5px;
+    color: white;
+}
+
+.thread__input>form>button {
+    color: white;
+}
+
+.thread__input>form>button:hover {
+    color: rgb(w, 150, 199);
+}
